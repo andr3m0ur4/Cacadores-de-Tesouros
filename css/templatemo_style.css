@@ -17,6 +17,7 @@ img	{ width: 100%; }
 
 a {
 	color: #ffffff; outline: 0;
+	display: block;
 }
 
 a:hover, a:focus {
@@ -63,7 +64,7 @@ h3 {
 
 .templatemo_link ,.templatemo_linkservice,.templatemo_linkcontact { 
 	font-size: 2em; color: #ffffff;
-	width: 95%;
+	width: 100%;
 }
 
 .templatemo_link1 { 
@@ -232,7 +233,12 @@ h3 {
   -o-transition: all 50ms ease-in-out;
   transition: all 50ms ease-in-out;
 }
+
 .gallery-item .overlay a {
+	display: block;
+}
+
+.gallery-item .overlay i {
   color: #ffffff;
   text-align: center;
   line-height: 32px;
@@ -242,6 +248,10 @@ h3 {
   margin-top: -16px;
   margin-left: -16px;
   font-size: 24px;
+}
+
+.gallery-item .overlay i:hover {
+	color: #ccc;
 }
 
 .templatemo_frame { 
