@@ -119,12 +119,14 @@ h3 {
 	width: 100%;
 }
 
-.templatemo_insideportfolio	 h2 { color: #ffffff; }
+.templatemo_insideportfolio	 h2, .templatemo_insideportfolio p { color: #ffffff; }
 .templatemo_insideportfolio	{
 	background: #993333;
 	width: 100%;
 	padding: 0px;
 	color: #ffffff;
+	overflow-x: hidden;
+	margin-top: 30px;
 }
 
 .templatemo_portfoliotext { 
@@ -138,6 +140,7 @@ h3 {
 	background: #666666;
 	text-align: center;
 	width: 100%;
+	margin-top: 15px;
 }
 
 .templatemo_aboutback { 
@@ -148,6 +151,14 @@ h3 {
 .templatemo_graybg { 
 	float: left; 
 	background: #cccccc; 
+	overflow: hidden;
+	width: 100%;
+}
+
+.templatemo_redbg { 
+	padding-top: 16px;
+	
+	background: #993333;
 	overflow: hidden;
 	width: 100%;
 }
@@ -365,7 +376,7 @@ h2.resp-accordion	{ color: #ffffff; }
 	.templatemo_link { height: 150px; line-height: 150px; padding: 0px; }
 	/*.container { left: 50%; margin-left: -585px; }*/
 	.logocontainer	{ width: 1140px; padding: 0px 30px; margin: 0 auto; }
-	.templatemo_insideportfolio	{ height: 316px; }
+	.templatemo_insideportfolio	{ height: 283px; }
 	.templatemo_leftgap_about .templatemo_link { height: 142px; line-height: 142px; padding: 0px; }
 	.templatemo_linkservice, .templatemo_linkcontact { height: 145px; line-height: 145px; padding: 0px; }
 }
