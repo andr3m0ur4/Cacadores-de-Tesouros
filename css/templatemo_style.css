@@ -35,14 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Tahoma, Arial;
 	font-weight: 400;
 }
-h1	{	font-size: 3em;
+h1 {	
+	font-size: 3em;
 	color: #cccccc;
 	background: #343537;
 	padding: 0px 0px;
 	float: left;
 	text-shadow: 4px 2px 2px rgba(33, 33, 33, 1);
-	margin: 5% 0% 0% 2%;;
-	}
+	margin: 5% 0% 0% 2%;
+}
 	
 h2	{ 
 	font-size: 24px; 
@@ -305,8 +306,15 @@ h2.resp-accordion	{ color: #ffffff; }
 }	
 @media(min-width:320px) and (max-width: 767px) {
 	/*.container	{ left: 15px; right: 15px; padding: 0px; }*/
+	h1 {
+		margin: 5% 0% 0% 5%;
+		font-size: 2.5em;
+	}
 }
 @media(min-width:768px) {
+	h1 {
+		margin: 5% 0% 0% 4%;
+	}
 	.templatemo_leftgap	{ padding: 0px 10px; }
 	.templatemo_botgap	{ margin: 0px 0px 20px 0px; }
 	.templatemo_topgap	{	margin-top: 20px; }
@@ -319,6 +327,9 @@ h2.resp-accordion	{ color: #ffffff; }
 }
 
 @media(min-width:992px) {
+	h1 {
+		margin: 5% 0% 0% 2%;
+	}
 	.templatemo_leftgap	{ padding: 0px 6px; }
 	.templatemo_rightgap_about	{ padding: 0px 6px 0px 2px; }
 	.templatemo_botgap	{ margin: 0px 0px 12px 0px; }
